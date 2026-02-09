@@ -398,6 +398,9 @@ PRODUCT_PACKAGES += \
     libvpplibrary \
     sensors.ssc \
     libasphere \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
     vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0 \
     vendor.oppo.hardware.commondcs@1.0 \
     vendor.oppo.hardware.hypnus@1.0 \
