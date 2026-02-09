@@ -301,22 +301,14 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
-    btaudio_offload_if \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
-    android.hardware.bluetooth@1.0-impl-qti \
-    audio.bluetooth_qti.default \
     audio.primary.trinket \
     vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
-    vendor.qti.hardware.bluetooth_audio@2.0-impl \
-    vendor.qti.hardware.bluetooth_audio@2.1-impl \
-    vendor.qti.hardware.bluetooth_sar@1.1-impl \
-    vendor.qti.hardware.btconfigstore@1.0-impl \
-    vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
     vulkan.adreno \
@@ -346,9 +338,6 @@ PRODUCT_PACKAGES += \
     libaudioconfigstore \
     libaudioparsers \
     libbase64 \
-    libbluetooth_audio_session_qti \
-    libbluetooth_audio_session_qti_2_1 \
-    libbtnv \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libcdsprpc \
@@ -413,8 +402,6 @@ PRODUCT_PACKAGES += \
     vendor.oppo.hardware.commondcs@1.0 \
     vendor.oppo.hardware.hypnus@1.0 \
     vendor.oppo.hardware.radio.opporadio@1.0 \
-    vendor.qti.hardware.bluetooth_sar@1.0 \
-    vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.sensorscalibrate@1.0 \
@@ -423,6 +410,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.3 \
     camera.trinket \
     vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl \
+    vendor.qti.hardware.bluetooth_audio@2.1-impl \
     imx386_PdafLibrary \
     libDxHdcp \
     libOPPORectify \
@@ -478,6 +466,8 @@ PRODUCT_PACKAGES += \
     libarcvs.dep \
     libarcvs \
     libavutil \
+    libbluetooth_audio_session_qti \
+    libbluetooth_audio_session_qti_2_1 \
     libblur_channel \
     libc++_shared \
     libcamera_core_hwi \
@@ -1553,11 +1543,15 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice@2.2 \
     com.qualcomm.qti.uceservice@2.0 \
     com.qualcomm.qti.uceservice@2.1 \
+    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     com.dsi.ant@1.0-impl \
     libets_teeclient_v2 \
     vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
+    vendor.qti.hardware.bluetooth_sar@1.1-impl \
+    vendor.qti.hardware.btconfigstore@1.0-impl \
+    vendor.qti.hardware.btconfigstore@2.0-impl \
     vendor.qti.hardware.fm@1.0-impl \
     lib-imscmservice \
     lib-imsdpl \
@@ -1577,7 +1571,7 @@ PRODUCT_PACKAGES += \
     libSecureUILib \
     libStDrvInt \
     libaoa \
-    libbt-hidlclient \
+    libbtnv \
     libcacertclient \
     libcdfw \
     libcdfw_remote_api \
@@ -1701,6 +1695,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.3-service \
     vendor.qti.gnss@4.3 \
     vendor.qti.hardware.alarm@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.0 \
+    vendor.qti.hardware.bluetooth_sar@1.1 \
     vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
