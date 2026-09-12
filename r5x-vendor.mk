@@ -319,7 +319,6 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
-    audio.primary.trinket \
     vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl \
     vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.sensorscalibrate@1.0-impl \
@@ -344,8 +343,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_low_light_hdr \
     libarcsoft_smart_denoise \
     libaudcal \
-    libaudioEngineerTest \
-    libaudio_log_utils \
     libaudioalsa \
     libaudioconfigstore \
     libaudioparsers \
